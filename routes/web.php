@@ -10,7 +10,18 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {
+return view('pagina');
+});
+
+<<<<<<< HEAD
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('pag1');
+=======
+    return view('pagina');
+>>>>>>> 08818383a6d38ad598a09f0999e56f1d221593d1
 });
+=======
+>>>>>>> f5468c397be40512a473f91ca4ecb7e087fd9798
