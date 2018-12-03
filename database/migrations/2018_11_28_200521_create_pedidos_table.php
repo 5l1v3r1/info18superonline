@@ -17,6 +17,7 @@ class CreatePedidosTable extends Migration
             $table->increments('id');
             $table->date('data');
             $table->string('cupom');
+            
             $table->integer('usuario_id')->unsigned();
             $table->foreign('usuario_id')->references('id')->on('users') ;
             $table->timestamps();

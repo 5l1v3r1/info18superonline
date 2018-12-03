@@ -85,8 +85,20 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scri
 	    			</ul>
 	    			<ul class="nav navbar-nav navbar-right">
 					
-	      				<li><a href="cadastrar.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a><li>
-	      				<li><a href="Tela_login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	      				
+
+	      				@guest
+	      				<li><a href="/cadastro"><span class="glyphicon glyphicon-user"></span> Cadastro</a><li>
+	      				<li><a href="/autenticacao"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+	      				@endguest
+
+	      				@auth
+	      				<li><a href="/desconectar"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+	      				@endauth
+
+
+
 						<li><a href="Carrinho.html"><span class="glyphicon glyphicon-log-in"></span>Compra</a></li>
 	    			</ul>
   				</div>
