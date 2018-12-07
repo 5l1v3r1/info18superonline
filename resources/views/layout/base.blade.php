@@ -42,12 +42,12 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scri
 				
 				<div class="item active">
 					<div class="text-center">
-						<img src="images/compras-supermercado-banner.jpg" alt="...">
+						<img src="images/compras-supermercado-banner_1.jpg" alt="...">
 					</div>
 				</div>
                 <div class="item act">
 					<div class="text-center">
-						<img src="images/images.jpg" alt="...">
+						<img src="images/cropped-compras-supermercado-banner (2).jpg" alt="...">
 					</div>
 				</div>
 				
