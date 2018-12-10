@@ -32,7 +32,9 @@ Route::get('/desconectar', function () {
 	Auth::logout();
 	return view('pagina');
 });
-
+Route::get('/carrinho', function () {
+return view('carrinho');
+});
 
 Route::get('/departamentos', 'DepartamentoControlador@index')->middleware('auth');
 Route::get('/departamento_cadastrar', 'DepartamentoControlador@create')->middleware('auth');
