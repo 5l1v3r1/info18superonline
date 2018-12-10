@@ -39,6 +39,12 @@ return view('carrinho');
 Route::get('/departamentos', 'DepartamentoControlador@index')->middleware('auth');
 Route::get('/departamento_cadastrar', 'DepartamentoControlador@create')->middleware('auth');
 Route::post('/departamento_salvar', 'DepartamentoControlador@store')->middleware('auth');
+Route::get('/departamento_remover/{id}', 'DepartamentoControlador@destroy')->middleware('auth');
+Route::get('/departamento_editar/{id}', 'DepartamentoControlador@edit')->middleware('auth');
+Route::post('/departamento_atualizar/{id}', 'DepartamentoControlador@update')->middleware('auth');
+
+
+
 
 
 Auth::routes();

@@ -65,7 +65,8 @@ class DepartamentoControlador extends Controller
      */
     public function edit($id)
     {
-        //
+        $departamento = departamento::find($id);
+        return view('departamento_cadastro', compact('departamento'));
     }
 
     /**
@@ -77,7 +78,14 @@ class DepartamentoControlador extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+         $departamento = departamento::find($id);
+
+         $nome = $request->input('nome');
+
+         $departamento->nome = $nome;
+         $departamento->save();
+
+         return redirect('/departamentos');
     }
 
     /**
@@ -88,6 +96,9 @@ class DepartamentoControlador extends Controller
      */
     public function destroy($id)
     {
-        //
+        $departamento = departamento::find($id);
+        $departamento->delete();
+        return redirect('/departamentos');
+
     }
 }
