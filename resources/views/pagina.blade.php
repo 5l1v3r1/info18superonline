@@ -4,34 +4,21 @@
 <h1>Principais categorias</h1>
 		 <p>Os melhores preços e produtos voce encontra aqui na SUPER.ONLINE!</p>
 		<br/>
-
-		<div class="row">
-	@foreach($produtos as $n)		
+<div class="row">
 		
-			<div class="col-md-4">
-				<img src="images/460297.jpg" style="width:70%"/>
-				<h4>{{$n->nome}}</h4>
-				<h4>{{$n->preco}}</h4>
-			
-			</div>
-
-      @endforeach
 
 
 
-
-
-			<!--<div class="gallery"> <a>
+              <div class="col-md-4">
+			<div class="gallery"> <a>
 			<ul class="nav navbar-nav navbar-right">
-				<a href= "/carrinho" ><img src="https://target.scene7.com/is/image/Target/14930889?wid=1560&hei=1560&fmt=pjpeg" class="img-responsive" style="width:20%" alt="Image"></a>
-				 
-				
+				<a href= "/carrinho" ><img src="https://target.scene7.com/is/image/Target/14930889?wid=1560&hei=1560&fmt=pjpeg" class="img-responsive" style="width:70%" alt="Image"></a>
 				 </ul>
 				 <h4> SALGADINHO DORITOS </h4></br>
 			        <h4>R$ 5,00</h4>
 				 </a>
 				</div>
-				</div>-->
+				</div>
 				
 			
 			<div class="col-md-4">

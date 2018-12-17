@@ -36,6 +36,20 @@ Route::get('/carrinho', function () {
 return view('carrinho');
 });
 
+
+Route::get('/usuario', function () {
+return view('usuario');
+});
+Route::get('/buscar', function () {
+return view('buscar');
+});
+Route::get('/contato', function () {
+return view('contato');
+});
+
+
+
+
 Route::get('/departamentos', 'DepartamentoControlador@index')->middleware('auth');
 Route::get('/departamento_cadastrar', 'DepartamentoControlador@create')->middleware('auth');
 Route::post('/departamento_salvar', 'DepartamentoControlador@store')->middleware('auth');

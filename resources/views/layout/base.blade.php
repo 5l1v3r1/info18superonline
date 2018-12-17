@@ -78,17 +78,17 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scri
 	      				<a class="navbar-brand" href="#">Super.Online</a>
 	    			</div>
 	    			<ul class="nav navbar-nav">
-	      				<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="busca.html">Buscar</a></li>
-	      				<li><a href="contato.html">Atendimento</a></li>
-	      				<li><a href="usuario.html">Usuário</a></li>
+	      				<li> <a href="/ "> Home</a><li>
+							<li><a href="/buscar">Buscar</a></li>
+	      				<li><a href="/contato">Atendimento</a></li>
+	      				<li><a href="/usuario">Usuário</a></li>
 	    			</ul>
 	    			<ul class="nav navbar-nav navbar-right">
 					
 	      				
 
 	      				@guest
-	      				<li> <a href="/ "><span class="glyphicon glyphicon-user"></span> Home</a><li>
+	      				
 	      				<li><a href="/cadastro"><span class="glyphicon glyphicon-user"></span> Cadastro</a><li>
 	      				<li><a href="/autenticacao"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 
@@ -100,7 +100,7 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scri
 
 
 
-						<li><a href="Carrinho.html"><span class="glyphicon glyphicon-log-in"></span>Compra</a></li>
+						<li><a href="/carrinho"><span class="glyphicon glyphicon-log-in"></span>Compra</a></li>
 	    			</ul>
   				</div>
 			</nav>
