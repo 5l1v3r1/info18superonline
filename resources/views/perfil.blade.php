@@ -10,7 +10,7 @@
 
 @if(Auth::user()->departamento->id != 1)
 <p><a href="/departamentos">Departamentos</a></p>
-<p>Categorias</p>
+<p><a href="/categorias">Categorias</a></p>
 @endif
 
 

@@ -44,7 +44,12 @@ Route::get('/departamento_editar/{id}', 'DepartamentoControlador@edit')->middlew
 Route::post('/departamento_atualizar/{id}', 'DepartamentoControlador@update')->middleware('auth');
 
 
-
+Route::get('/categorias', 'CategoriaControlador@index')->middleware('auth');
+Route::get('/categoria_cadastrar', 'CategoriaControlador@create')->middleware('auth');
+Route::post('/categoria_salvar', 'CategoriaControlador@store')->middleware('auth');
+Route::get('/categoria_remover/{id}', 'CategoriaControlador@destroy')->middleware('auth');
+Route::get('/categoria_editar/{id}', 'CategoriaControlador@edit')->middleware('auth');
+Route::post('/categoria_atualizar/{id}', 'CategoriaControlador@update')->middleware('auth');
 
 
 Auth::routes();
