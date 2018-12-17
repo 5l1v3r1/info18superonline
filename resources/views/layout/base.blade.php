@@ -88,6 +88,7 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scri
 	      				
 
 	      				@guest
+	      				<li> <a href="/ "><span class="glyphicon glyphicon-user"></span> Home</a><li>
 	      				<li><a href="/cadastro"><span class="glyphicon glyphicon-user"></span> Cadastro</a><li>
 	      				<li><a href="/autenticacao"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 
@@ -121,7 +122,7 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scri
 
 
 	<footer class="container text-center">
-  			<p>Copyright © 2018 | Alunos de INFO3</p>
+  			<p>Copyright © 2018 | Alunos de INFO4</p>
 
 	</footer>
 </body>
